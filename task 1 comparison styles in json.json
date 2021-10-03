@@ -1,0 +1,52 @@
+{
+    "xml":{
+        "abbreviation": "eXtensible Markup Language.",
+        "purpose": "Intended for documents published on the Web.",
+        "developer": "John Bosak, 1996.",
+        "main versions": "XML 1.0 (1991) – XML 1.1. II-nd ed. (2006).",
+        "main features": "Consists of markup (<,>,&,;) and content,
+        has strict rules,
+        does not contain text, except for code elements.",
+        "main application": "Used in data interchange, office tools etc.",
+        "code declaration": "<?xml version="1.0" encoding='...'?>"
+    },
+
+    "html":{
+        "abbreviation": "HyperText Markup Language",
+        "purpose": "The standard language for Web pages.",
+        "developer": "Tim Berners-Lee, 1993",
+        "main versions": "HTML – HTML 4.01 (2000).
+        HTML 5.0 (2011) draft version.",
+        "main features": "Not strict–txt allowed,
+        severe markup errors not fatal,
+        unsuitable for data storage.",
+        "main application": "The only language used
+        for creating web-pages.",
+        "code declaration": "<!DOCTYPE html>"
+    },
+
+    "MD":{
+        "abbreviation": "MarkDown Markup Language ",
+        "purpose": "for better reading, conversion
+        into HTML/XML structures.",
+        "developer": "John Gruber, 2004",
+        "main versions": "Markdown (2004) etc.",
+        "main features": "Convenient for interchange of info,
+        easily readable, plain text formatting for writing in the web.",
+        "main application": "Can be used for inclusion into other codes.",
+        "code declaration": "N/A",
+    },
+
+    "JSON":{
+        "abbreviation": "JavaScript Object Notation",
+        "purpose": "the lightweight format for storing
+        and delivering data.",
+        "developer": "David Crockford, 2001",
+        "main versions": "JSON (ECMA, 2001) etc.",
+        "main features": "Easily readable, low character number,
+        quick in rendering.",
+        "main application": "Widely used on web applications
+        for data interchange.",
+        "code declaration": "N/A"
+    }
+}

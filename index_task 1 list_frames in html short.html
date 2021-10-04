@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="eng">
+	<head>
+		<meta charset="utf-8">
+		<title>Lists and Forms</title>
+	</head>
+	<body>
+		<h1>Lists and Forms in HTML</h1>
+		<!--Personal-->
+		<form name="user" action="send.php" method="POST">
+			<fieldset>				        
+		<legend style="text-align:center">Personal information</legend>
+				<label for="user_name">Your name</label>
+				<input type="text" name="user_name" placeholder="Full name" id="user_name" required="true">
+				<label for="fname">First name:</label>
+	            <input type="text" id="fname" name="fname">
+	            <label for="lname">Last name:</label>
+	            <input type="text" id="lname" name="lname">
+	            <br>
+				<br>
+				<label for="user_age">Your age</label>
+				<input type="number" name="user_age" placeholder="Your age" id="user_age" required="true">
+				<br>
+				<br>
+				<input type="radio" name="gender" value="male">M
+				<input type="radio" name="gender" value="female">F
+				<br>
+				<br>
+				<label for="birthday">Birthday:</label>
+	            <input type="date" id="birthday" name="birthday">
+				<br>
+	            <br>
+	            <label for="tel">Phone</label>
+               	<input type="number" id="tel">
+               	<br>
+	            <br>
+                <label for="url">Web page</label>
+              	<input type="url" id="url" />
+	            <br>
+	            <br>
+	            <label for="email">E-mail</label>
+	            <input type="email" id="email" name="email">
+	           	<br>
+				<br>
+				<input type="submit" value="Submit">
+			</fieldset>
+			<!--/Personal-->
+			<!--Password and message-->
+			<form name="password" action="send.php" method="POST">
+				<fieldset>				        
+		<legend style="text-align:center">Password and message</legend>
+				<br>			
+				<br>
+				<label for="password">Password:</label>
+				<input type="password" name="password" placeholder="Password" id="password" required="true">
+				<br>
+				<br>
+				<label>Remember me</label>
+				<input type="checkbox" name="remember" id="remember">
+				<br>
+				<br>
+				<select>
+					<option value="Idonnou">Idonnou</option>
+					<option value="Lviv">Lviv</option>
+					<option value="Kyiv">Kyiv</option>
+					<option value="Boyova">Boyova</option>
+					</select>
+				<br>
+				<br>
+				<label for="message">Message</label>
+				<br>
+				<textarea id="message" name="message" placeholder="Type a message" rows="2" cols="22"></textarea>
+				<br>
+				<br>
+				<label for="read">Read</label>
+				<br>
+	            <input type="text" id="read" readonly     placeholder="Info for reading">
+				<br>
+				<br>
+				<input type="submit" name="Submit">
+			</fieldset>
+			<!--/Password and message-->
+			<!--Miscellaneous-->
+			<form name="search" action="send.php" method="POST">
+			<fieldset>				        
+		<legend style="text-align:center">Miscellaneous search fields</legend>
+               	<label for="search">Search</label>
+              	<input type="search" id="search">
+				<br>			
+				<br>
+                <label for="hidden">Invisible label</label>
+                <label for="date">Date</label>
+               	<input type="date" id="date">
+               	<br>			
+				<br>
+                <label for="time">Time</label>
+               	<input type="time" id="time">
+				<br>			
+				<br>
+               	<label for="num">Number</label>
+               	<input type="number" id="num">
+				<br>			
+				<br>
+               	<label>Your multiple choise</label>
+				<br>
+                <label for="history">History</label>
+                <input type="checkbox" id="history" name="check" value="history">
+                <br>
+                <label for="fiction">Fiction</label>
+                <input type="checkbox" id="fiction" name="check" value="fiction">
+                <br>                  
+                <label for="sci">Science</label>
+				<input type="checkbox" id="sci" name="check" value="sci" />
+				<br>
+				<br>			
+				<label>Your single choise</label>
+				<br>
+                <label for="history1">History</label>
+                <input type="radio" id="history1" name="radiocheck" value="history1">
+                <br>
+                <label for="fiction1">Fiction</label>
+                <input type="radio" id="fiction1" name="radiocheck" value="fiction1">
+                <br>                  
+                <label for="sci1">Science</label>
+				<input type="radio" id="sci1" name="radiocheck" value="sci1">
+				<br>			
+				<br>
+                <label for="file">Files to upload</label>
+                <input type="file" id="file" multiple>
+				<br>
+				<br>
+                <label>Reset form</label>
+               	<input type="reset" value="reset">
+               	<br>
+               	<br>
+               	<input type="submit" value="Submit">
+            </fieldset>
+			<!--/Miscellaneous-->
+		</form>
+	</body>
+</html>

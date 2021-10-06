@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <title>md language tutorail</title>
+        <link rel="stylesheet" type="text/css" href="css/normalize-css.css">
+        <link rel="stylesheet" type="text/css" href="style-css.css">
+        <script type = "text/javascript" src = "script/js.js"></script>
+    </head>
+    <body>
+        <!--HEADER-->
+        <header class="header">
+            <h1>A Short Guide to the MARKDOWN Syntax</h1>
+        </header>
+        <!--/HEADER-->
+        <!--NAVIGATION-->
+        <header id="nav">
+            <h4><a>Use the navigation buttons below</a></h4>
+        </header>
+            <div>      
+                <nav>
+                    <ul>
+                        <li><a href="#Headers">Headers</a></li>
+                        <li><a href="#Emphasis">Emphasis</a></li>
+                        <li><a href="#Lists">Lists</a></li>      
+                            <ol>
+                            <li><a href="#Unordered">Unordered</a></li>  
+                            <li><a href="#Ordered">Ordered</a></li>
+                        </ol>     
+                        <li><a href="#Images">Images</a></li> 
+                        <li><a href="#Links">Links</a></li>
+                        <li><a href="#Blockquotes">Blockquotes</a></li>
+                        <li><a href="#Inline">Inline code</a></li>
+                        <li><a href="#Tables">Tables</a></li>         
+                        <li><a href="#Highlight">Highlighting</a></li>
+                        <li><a href="#URLs">URLs</a></li>
+                        <li><a href="#Strikethrough">Strikethrough</a></li>   
+                    </ul>
+                </nav>
+            </div>
+        <!--/NAVIGATION-->        
+        <!--MAIN SECTION-->
+        <main>
+            <!--HEADER-->
+            <div class="header1"><h2>A Short Guide to the MARKDOWN Syntax</h2>
+            </div>
+            <hr/>
+            <!--/HEADER-->    
+            <section class="main_container">
+            <!--DEFINITIONS-->
+            <!--HEADERS-->
+            <div>
+                <h3 align="center" id="Headers">Headers</h3>
+                <p>To create a heading, add number signs (#) in front of a word 
+                or phrase. The number of number signs you use should correspond 
+                to the heading level. For example, to create a heading level 
+                three <'h3'>, use three number signs (e.g., ### My Header).
+                <br>
+                Instance (md / html output):<h5>##### Header / 'h5' Header </h5>
+            </div>
+            <a href="#nav" title="Headers">
+                <img src="https://cdn-icons-png.flaticon.com/128/5737/5737594.png" 
+                alt="Navigation" width="20">Content navigation</a>
+            <hr/>
+            <!--/Headers-->
+            <!--Emphasis-->
+            <div>
+                <h3 align="center" id="Emphasis">Emphasis</h3>
+                <p>To bold text, add two asterisks or underscores before and after 
+                a word or phrase. To bold the middle of a word for emphasis, 
+                add two asterisks without spaces around the letters.
+                <br>
+                Instance (md / html):
+                <br>
+                <br>
+                 I just love **bold text**. / I just love <strong>bold text</strong>.
+            </div>
+            <a href="#nav" title="Emphasis">
+                <img src="https://cdn-icons-png.flaticon.com/128/5737/5737594.png" 
+                alt="Navigation" width="20">Content navigation</a>
+            <hr/>
+            <!--/Emphasis-->
+            <!--Lists-->
+            <div>
+                <h3 align="center" id="Lists">Lists</h3>
+                <p>You can organize items into ordered and unordered lists.
+            </div>
+            <a href="#nav" title="Emphasis">
+                <img src="https://cdn-icons-png.flaticon.com/128/5737/5737594.png" 
+                alt="Navigation" width="20">Content navigation</a>
+            <hr/>
+            <!--Unordered-->
+            <div>
+                <h3 align="center" id="Unordered">Unordered lists</h3>
+                <p>To create an unordered list, add dashes (-), asterisks (*), 
+                or plus signs (+) in front of line items. Indent one or more 
+                items to create a nested list.
+                <br>
+                Instance (md / html):
+                <br>
+                <br>
+                - First item
+                <br> 
+                - Second item 
+                <br>
+                <ul>
+                <li>First item</li>
+                <li>Second item</li>
+                </ul>
+            </div>
+            <a href="#nav" title="Unordered">
+                <img src="https://cdn-icons-png.flaticon.com/128/5737/5737594.png" 
+                alt="Navigation" width="20">Content navigation</a>
+            <hr/>
+            <!--Ordered-->
+            <div>
+                <h3 align="center" id="Ordered">Ordered lists</h3>
+                <p>To create an ordered list, add line items with numbers followed 
+                by periods. The numbers don’t have to be in numerical order, 
+                but the list should start with the number one.
+                <br>
+                Instance (md / html):
+                <br>
+                <br>
+                1. First item
+                <br> 
+                2. Second item
+                <br>
+                <ol>
+                <li>1. First item</li>
+                <li>2. Second item</li>
+                </ol>
+            </div>
+            <a href="#nav" title="Ordered">
+                <img src="https://cdn-icons-png.flaticon.com/128/5737/5737594.png" 
+                alt="Navigation" width="20">Content navigation</a>
+            <hr/>
+            <!--/Lists-->
+            <!--Images-->
+            <div>
+                <h3 align="center" id="Images">Images</h3>
+                <p>To add an image, add an exclamation mark (!), followed by alt 
+                text in brackets, and the path or URL to the image asset in parentheses. 
+                You can optionally add a title after the URL in the parentheses.
+                <br>
+                Instance (md / html):
+                <br>
+                <br>
+                ![Flag](flag.jpg) /
+                <br>
+                <img src="flag.jpg" alt="Flag" width="300" height="250">
+            </div>
+            <a href="#nav" title="Ordered">
+                <img src="https://cdn-icons-png.flaticon.com/128/5737/5737594.png" 
+                alt="Navigation" width="20">Content navigation</a>
+            <hr/>
+            <!--/Images-->
+            <!--Links-->
+            <div>
+                <h3 align="center" id="Links">Links</h3>
+                <p>To create a link, enclose the link text in brackets 
+                (e.g., [Duck Duck Go]) and then follow it immediately 
+                with the URL in parentheses (e.g., (https://duckduckgo.com)).
+                <br>
+                Instance (md / html):
+                <br>
+                <br>
+                [Mozilla](https://www.mozilla.org/) /
+                <br>
+                <a href="https://www.mozilla.org/">MOZILLA</a>
+            </div>
+            <a href="#nav" title="Links">
+                <img src="https://cdn-icons-png.flaticon.com/128/5737/5737594.png" 
+                alt="Navigation" width="20">Content navigation</a>
+            <hr/>
+            <!--/Links-->
+            <!--Blockquotes-->
+            <div>
+                <h3 align="center" id="Blockquotes">Blockquotes</h3>
+                <p>To create a blockquote, add a > in front of a paragraph.
+                <br>
+                Blockquotes can contain multiple paragraphs. Add a > on the blank lines between the paragraphs.
+                <br>
+                Instance (md / html):
+                <br>
+                <br>
+                > Dorothy followed her through many of the beautiful rooms in her castle.
+                <br>
+                >
+                <br>
+                > The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood. /
+                <p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
+                <p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p>
+            </div>
+            <a href="#nav" title="Blockquotes"><img src="https://cdn-icons-png.flaticon.com/128/5737/5737594.png" alt="Navigation" width="20">Content navigation</a>
+            <hr/>
+            <!--/Blockquotes-->
+            <!--Inline code-->
+            <div>
+                <h3 align="center" id="Inline">Inline code</h3>
+                <p>To use inline code formatting, simply wrap the code you wish to format in backticks.
+                <br>
+                Instance (md / html):
+                <br>
+                <br>
+                <`p`> I just love bold text.<`/p`> / <p>I just love bold text.</p>
+            </div>
+            <a href="#nav" title="Inline"><img src="https://cdn-icons-png.flaticon.com/128/5737/5737594.png" alt="Navigation" width="20">Content navigation</a>
+            <hr/>
+            <!--/Inline code-->
+            <!--Tables-->         
+            <div>
+                <h3 align="center" id="Tables">Tables</h3>
+                <p>You can create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe |. You can align text in the columns to the left, right, or center by adding a colon (:) to the left, right, or on both side of the hyphens within the header row (:---: etc.).
+                <br>
+                Instance (md / html):                
+                <br>
+                First Header | Second Header
+                <br>------------ | -------------
+                <br>Content from cell 1 | Content from cell 2
+                <br> Content in the first column | Content in the second column
+                <br>
+                <table width="400" border=" ">
+                <thead>
+                    <tr>
+                        <th> First Header </th>
+                        <th> Second Header  </th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> Content from cell 1 </td>
+                        <td> Content from cell 2 </td>
+
+                    </tr>
+
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td> Content in the first column </td>
+                        <td> Content in the second column </td>
+
+                    </tr>
+                </tfoot>
+            </table>
+            </div>
+            <a href="#nav" title="Highlight"><img src="https://cdn-icons-png.flaticon.com/128/5737/5737594.png" alt="Navigation" width="20">Content navigation</a>
+            <hr/>
+            <!--/Tables-->
+            <!--Highlight-->
+            <div>
+                <h3 align="center" id="Highlight">Highlighting</h3>
+                <p> This feature allows you to add color highlighting for whatever language your code was written in. To add syntax highlighting, specify a language next to the backticks before the fenced code block - use three backticks (```) or three tildes (~~~) on the lines before and after the code block: 
+                <br>
+                Instance (md / html):
+                <br>
+                <br>
+                ```json
+                <br>
+                {
+                <br>
+                  "firstName": "John",
+                <br>
+                  "lastName": "Smith",
+                <br>
+                  "age": 25
+                <br>
+                }
+                <br>
+                ``` /
+                <p style=padding-left:100px>{
+                <br>
+                  "firstName": "John",
+                <br>
+                  "lastName": "Smith",
+                <br>
+                  "age": 25
+                <br>
+                }
+                </p>
+            </div>
+            <a href="#nav" title="Highlight"><img src="https://cdn-icons-png.flaticon.com/128/5737/5737594.png" alt="Navigation" width="20">Content navigation</a>
+            <hr/>
+            <!--/Highlight-->
+            <!--URLs-->
+            <div>
+                <h3 align="center" id="URLs">URLs</h3>
+                <p> Many Markdown processors automatically turn URLs into links. That means if you type https://www.mozilla.org/, your Markdown processor will automatically turn it into a link even though you haven’t used brackets: <a href="https://www.mozilla.org/">https.www.mozilla.org</a>.
+                <br>
+                If you don’t want a URL to be automatically linked, you can remove the link by denoting the URL as code with backticks: `https://www.mozilla.org/`.
+            </div>
+            <a href="#nav" title="URLs"><img src="https://cdn-icons-png.flaticon.com/128/5737/5737594.png" alt="Navigation" width="20">Content navigation</a>
+            <hr/>
+            <!--URLs-->
+            <!--Strikethrough-->
+            <div>
+                <h3 align="center" id="Strikethrough">Strikethrough</h3>
+                <p>You can strikethrough words by putting a horizontal line through the center of them. The result looks <strike>like this</strike>. This feature allows you to indicate that certain words are a mistake not meant for inclusion in the document. To strikethrough words, use two tilde symbols (~~) before and after the words: ~~like this~~.
+                <br>
+                <br>
+            </div>
+            <a href="#nav" title="Strikethrough"><img src="https://cdn-icons-png.flaticon.com/128/5737/5737594.png" alt="Navigation" width="20">Content navigation</a>
+            <hr/>
+            <!--/Strikethrough-->
+            <!--/DEFINITIONS-->
+        </section>
+        </main>     
+        <!--/MAIN SECTION-->
+        <!--FOOTER-->
+        <footer class="footer">
+            <div class="container">
+                    <p>Copyright. ©. AP. 2021.</p>
+            </div>
+        </footer>
+        <!--/FOOTER-->
+    </body>
+</html>
